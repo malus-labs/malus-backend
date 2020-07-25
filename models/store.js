@@ -72,6 +72,9 @@ const Store = db.define("stores", {
     type: Sequelize.STRING,
     allowNull: false,
   },
+
+}, {
+    timestamps: false
 });
 
 module.exports = Store;
