@@ -16,8 +16,8 @@
     "http": "0.0.1-security",
     "jade": "^1.11.0",
     "morgan": "^1.10.0",
-    "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^6.3.3"
+    "sequelize": "^6.3.3",
+    "web3": "^1.2.11"
   }
 }
