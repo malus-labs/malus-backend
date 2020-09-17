@@ -14,12 +14,12 @@ const Store = db.define("stores", {
   },
 
   available_funds: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.DECIMAL,
     allowNull: false,
   },
 
   stake: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.DECIMAL,
     allowNull: false,
   },
 
@@ -29,17 +29,17 @@ const Store = db.define("stores", {
   },
 
   collateral: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.DECIMAL,
     allowNull: false,
   },
 
   collateral_relief: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.DECIMAL,
     allowNull: false,
   },
 
   collateral_acceptance_rate: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.DECIMAL,
     allowNull: false,
   },
 
