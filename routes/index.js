@@ -2,10 +2,10 @@ var express = require("express");
 var router = express.Router();
 
 // Subrouters;
-const storesRouter = require("./stores.js");
+const storesRouter = require("./store.js");
 
 // Mount our subrouters to assemble our apiRouter;
-router.use("/stores", storesRouter);
+router.use("/store", storesRouter);
 
 // Error handling middleware;
 router.use((req, res, next) => {
