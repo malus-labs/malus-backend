@@ -17,7 +17,8 @@ router.get("/:user_id/:pageNumber", async (req, res, next) => {
 
         
         if(user_id.substring(0, 2) == "0x") {
-            //if new user register and return empty array. 
+            
+
 
         }
         else {
